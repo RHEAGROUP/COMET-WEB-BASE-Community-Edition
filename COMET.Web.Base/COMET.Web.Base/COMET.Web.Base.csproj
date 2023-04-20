@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+      <TargetFramework>net7.0</TargetFramework>
+      <Version>1.0.0</Version>
+      <AssemblyVersion>1.0.0</AssemblyVersion>
+      <FileVersion>1.0.0</FileVersion>
+      <Title>COMET WEB Base Community Edition</Title>
+      <Description>Basic infrastructure to create custom E-TM-10-25 web based dashboards</Description>
+      <Company>RHEA System S.A.</Company>
+      <Copyright>Copyright 2023 RHEA System S.A.</Copyright>
+      <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+      <Authors>Sam, Alex, Alexander, Antoine, Jaime</Authors>
+      <RepositoryType>Git</RepositoryType>
+      <RepositoryUrl>https://github.com/RHEAGROUP/COMET-WEB-BASE-Community-Edition</RepositoryUrl>
+      <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <InvariantGlobalization>true</InvariantGlobalization>
+      <BlazorEnableTimeZoneSupport>false</BlazorEnableTimeZoneSupport>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDP4.WEB.Common" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.5" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
